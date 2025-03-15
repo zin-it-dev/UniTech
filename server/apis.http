@@ -1,0 +1,19 @@
+### Token
+POST http://localhost:8000/o/token/
+Content-Type: application/json
+
+{
+    "grant_type": "password",
+    "client_id": "ItJS0ZfMkRHHWxjXM3TTLPtF0Qpr1JfCXRl2fsvj",
+    "client_secret": "yx0LN6jvUaEwd5WHUv1korY8dFNnOJliyKPWbWFXN7m6AXiDwKAsX8gtIWfhAY6QjKWZEuESEPbYT1TvD4S3uVEnYtT0Wn5FY7Lbj8KlnT7ytOpIRXBaVUIX4XxOD8Qr",
+    "username": "lehienvinh.tk4@gmail.com",
+    "password": "1"
+}
+
+### Current User
+GET http://localhost:8000/users/current-user/
+Content-Type: application/json
+Authorization: Bearer draZwlgahxoALqxbBSjucIFCPCyK4E
+
+### Categories
+
